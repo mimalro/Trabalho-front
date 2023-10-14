@@ -1,105 +1,231 @@
 @import '~bootstrap/dist/css/bootstrap.css';
 
-*{
+* {
     padding: 0;
     margin: 0;
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+    background-color: #544868;
 }
 
-body{
+body {
     font-family: monospace;
 }
 
 
-nav{
+nav {
     height: 70px;
     width: 100%;
-    margin:0px;
-    background: #271e36;
+    margin: 0px;
+    background: #312841;
 }
 
-nav ul{
-    float:right;
+
+nav ul {
+    float: right;
     box-sizing: border-box;
     margin: 0 5px;
-    
+
 }
 
-#input_login{
+
+
+#input_login {
     display: grid;
     justify-content: center;
 }
 
-nav ul li{
+#login {
+    background-color: white;
+}
+
+#senha {
+    background-color: white;
+}
+
+#email{
+    background-color: white;
+}
+
+#registro{
+    margin-top: 15px;
+    margin-left: 97px;
+}
+
+.form-label {
+    color: white;
+}
+
+nav ul li {
+    background-color: #312841;
     display: inline-block;
     margin: 0;
     margin-top: 27px;
-    
+
 }
 
-#mid{
-    margin-right: 300px;
+#mid {
+    position: fixed;
+    left: 50%;
 }
 
-#mid a{
+#mid a {
     color: white;
-    
+
 }
 
 #work {
     color: white;
 }
 
+#left {
+    background-color: #312841;
+}
 
-.dropdown{
-    display: inline-block; 
-    position: relative; 
-   
-}
-#usuario{
-    background-color: #27282F;
+#workflow {
+    width: 30px;
+    height: 30px;
     color: white;
-    border: #271e36;
-    cursor: pointer; 
 }
+
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+
+}
+
+#usuario {
+    background-color: #312841;
+    color: white;
+    border: #312841;
+    cursor: pointer;
+}
+
+#dropMid {
+    background-color: #312841;
+    color: white;
+    border: #312841;
+    cursor: pointer;
+    box-shadow: none;
+    transform: translate(-50%);
+
+}
+
+#primeiro {
+    margin-left: 0px;
+}
+
+#dropMid a {
+    background-color: #312841;
+    text-align: center;
+    margin: 5px;
+    margin-left: 150px;
+
+}
+
+
 
 .dropdown-content {
     color: black;
     display: none;
     position: absolute;
     overflow: auto;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+#userDrop{
+    text-align: center;
+right: 0px;
 }
 
+#registroP{
+    background: none;
+    color: white;
+}
 .dropdown-content a {
     display: block;
-    cursor: pointer; 
+    cursor: pointer;
     color: black;
     background-color: white;
     padding: 5px;
     text-decoration: none;
+    transition: all .5s;
 }
 
-.dropdown:hover .dropdown-content{
-    display: block;
-    cursor: pointer; 
-    
+.dropdown:hover .dropdown-content {
+    display: flex;
+    cursor: pointer;
+
+
 }
+
 .dropdown-content a:hover {
     color: black;
-    background-color: azure;   
+    background-color: azure;
 }
 
 
-footer{
-    background: #271e36;
+.cards {
+    display: block;
+    width: 250px;
+    height: 80px;
+    margin-left: 15%;
+    margin-top: 60px;
+    float: left;
+    padding: 1.1rem;
+    background-color: rgb(18, 17, 26);
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    transition: all .5s;
+    box-shadow: 15px 15px 30px rgba(25, 25, 25, 0.11),
+        -15px -15px 30px rgba(60, 60, 60, 0.582);
+    text-align: center;
+    overflow: hidden;
+}
+
+.cards:hover {
+    height: 500px;
+    background: rgb(18, 17, 26);
+}
+
+.Card1 {
+    margin-right: auto;
+    display: fixed;
+}
+
+.Card2 {
+    left: 50%;
+    display: fixed;
+}
+
+.Card3 {
+    left: 70%;
+    display: fixed;
+}
+
+
+
+#card {
+    left: 20%;
+}
+
+#card {
+    background-color: rgb(18, 17, 26);
+
+}
+
+.txt p {
+    background-color: #312841
+}
+
+
+footer {
+    background-color: #312841;
     color: white;
     position: absolute;
     bottom: 0;
     width: 100%;
     height: 70px;
-      
-}
 
+}
